@@ -1,20 +1,20 @@
 #include <stdio.h>
 
-int cuadradoNumero(int num);
+void cuadradoNumero(int num);
 
 int main(){
-    int num, cuadrado;
+    int num;
 
     printf("Ingrese un numero:\n");
     scanf("%d", &num);
 
-    cuadrado = cuadradoNumero(num);
+    cuadradoNumero(num);
 
-    printf("El cuadrado de %d es %d.\n", num, cuadrado);
     
     return 0;
 }
 
-int cuadradoNumero(int num){
-    return num * num;
+void cuadradoNumero(int num){
+    int cuadrado = num * num;
+    printf("El cuadrado de %d es %d.\n", num, cuadrado);6
 }
