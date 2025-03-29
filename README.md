@@ -8,9 +8,9 @@
 Esto es útil para evitar que se incluyan en el repositorio archivos temporales, de configuración personal o cualquier otro elemento que no sea relevante para el proyecto compartido.
 
 Es conveniente utilizarlo para: 
--Mantener el repositorio limpio y más organizado.
--Para evitar conflictos con archivos personales o de un entorno en específico con otros colaboradores.
--Optimizar el rendimiento.
+- Mantener el repositorio limpio y más organizado.
+- Para evitar conflictos con archivos personales o de un entorno en específico con otros colaboradores.
+- Optimizar el rendimiento.
 
 Es recomendable crear el archivo .gitignore al inicio del proyecto, preferiblemente antes de hacer el primer commit.
 Para configurar/crear un archivo .gitignore se siguen los siguientes pasos:
