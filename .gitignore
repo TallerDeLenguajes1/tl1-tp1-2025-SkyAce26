@@ -1,0 +1,5 @@
+# ignora los archivos exe
+*.exe
+
+# ignoro archivo "ignorado.txt"
+ignorado.txt
